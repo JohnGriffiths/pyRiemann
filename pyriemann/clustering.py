@@ -2,7 +2,7 @@
 import numpy
 from sklearn.base import (BaseEstimator, ClassifierMixin, TransformerMixin,
                           ClusterMixin)
-from sklearn.cluster._kmeans import _init_centroids
+from sklearn.cluster._k_means import _init_centroids
 from joblib import Parallel, delayed
 
 from .classification import MDM
